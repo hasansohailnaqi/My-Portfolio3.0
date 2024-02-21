@@ -5,6 +5,7 @@ import {
   AiOutlineGithub,  
   AiOutlineLinkedin,
 } from "react-icons/ai"
+import { FaYoutube } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -12,10 +13,18 @@ const Footer = () => {
       <hr className="w-full h-0.5 mx-auto mt-8 bg-neutral-200 border-0"></hr>
       <div className="mx-auto  p-4 flex flex-col text-center text-neutral-900 md:flex-row md:justify-between">
         <div className="flex flex-row items-center justify-center space-x-1 text-neutral-500 dark:text-neutral-100">
-          © 2023 Hasan Sohail Naqi<a href="/" className="hover:underline"></a>
+          © 2024 Hasan Sohail Naqi<a href="/" className="hover:underline"></a>
         </div>
-        {/* <div className="flex flex-row items-center justify-center space-x-2 mb-1">
-          <a href="https://github.com/Ajmalniz" rel="noreferrer" target="_blank">
+        <div className="flex flex-row items-center justify-center space-x-2 mb-1">
+          <a href="https://www.unleash.media/" rel="noreferrer" target="_blank">
+            <FaYoutube
+              className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
+              size={30}
+            />
+          </a>
+          </div>
+        <div className="flex flex-row items-center justify-center space-x-2 mb-1">
+          <a href="https://github.com/hasansohailnaqi" rel="noreferrer" target="_blank">
             <AiOutlineGithub
               className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
               size={30}
@@ -23,7 +32,7 @@ const Footer = () => {
           </a>
          
           <a
-            href="https://www.linkedin.com/in/front-end-developer-headless-cms-ai-blockchain/"
+            href="https://www.linkedin.com/in/hasan-sohail-naqi-703bb8289/"
             rel="noreferrer"
             target="_blank"
           >
@@ -32,9 +41,13 @@ const Footer = () => {
               size={30}
             />
           </a>
+          
          <ModeToggle />
-        </div> */}
+         
+        </div>
+       
       </div>
+      
     </footer>
   )
 }
