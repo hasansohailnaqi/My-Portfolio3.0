@@ -18,8 +18,9 @@ const Footer = () => {
         <div className="flex flex-row items-center justify-center space-x-2 mb-1">
           <a href="https://www.unleash.media/" rel="noreferrer" target="_blank">
             <FaYoutube
-              className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
+              className="hover:-translate-y-1 text-3xl hover:text-[#ff0000] transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
               size={30}
+              
             />
           </a>
           </div>
